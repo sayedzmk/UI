@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- WOW CSS -->
+    <link rel="stylesheet" href="./assets/css/animate.css">
+    <link rel="stylesheet" href="./assets/css/animate.min.css">
+    <!-- OWl CSS -->
+    <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/css/owl.theme.default.min.css">
+    <!-- Slick Slider -->
+    <link rel="stylesheet" href="./assets/css/slick.css">
+    <link rel="stylesheet" href="./assets/css/slick-theme.css">
+    <!-- ICon -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <!--  my File CSS -->
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar  fixed-top navbar-expand-lg navbar   ">
+            <img class="img1" src="./img/bootstrap-social.png" alt="">
+            <button class="navbar-toggler navbar-dark float-right" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse  justify-content-center " id="navbarSupportedContent">
+                <ul class="navbar-nav  ">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#home">Home </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#aboutUS">About Us </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#product">Product</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contactUs">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#footer">Footer</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section id="home" class="home  mt-5 py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 wow animate__backInLeft" data-wow-duration="2s" data-wow-delay="0.2s">
+                    <img src="./img/4.jpeg" class="rounded img-fluid" alt="">
+                    <div class="data"></div>
+                </div>
+                <div class="col-md-6 wow animate__backInRight" data-wow-duration="2s" data-wow-delay="0.2s">
+                    <h2>Order Now</h2>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Name</label>
+                        <input type="text" class="form-control" id="name" aria-describedby="emailHelp">
+                        <div id="invalid" class="none alert alert-danger">
+                            Please Enter Valid Name
+                            <button id="closeMessage" type="button" class="close" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                        </div>
+                        <div class="form-group">
+                            <label>Phone: </label>
+                            <input type="text" class="form-control" id="num">
+                            <div id="invalidNum" class="none alert alert-danger">
+                                Please Enter Valid Number
+                                <button id="closeMessageNum" type="button" class="close" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span> </button>
+                            </div>
+                            <h5 id="text"></h5>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Product Id:</label>
+                                <input type="text" class="form-control" id="prod">
+                            </div>
+                        </div>
+                        <button class="btn btn-outline-light btn-lg px-4" id="buy">Buy Now</button>
+
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section id="aboutUS" class="about ">
+        <h1 id="responsive_headline" class="pb-3"> Advantage</h1>
+        <div class="container" id="container">
+            <div class="row my-2">
+                <div class="col-md-4 ">
+                    <div class="row ">
+                        <i class="fab fa-app-store py-2 "></i>
+                        <h4 class="px-3 ">IPhone</h4>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia ullam quos corporis fugit,
+                        labore vero?
+                    </p>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="row">
+                        <i class="fab fa-app-store py-2 "></i>
+                        <h4 class="px-3 ">IPhone</h4>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia ullam quos corporis fugit,
+                        labore vero?
+                    </p>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="row">
+                        <i class="fab fa-app-store py-2 "></i>
+                        <h4 class="px-3 ">IPhone</h4>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia ullam quos corporis fugit,
+                        labore vero?
+                    </p>
+                </div>
+
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <button class="btn btn-outline-primary btn-lg px-4" id="btn">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="features mt-2">
+        <h1 class="py-3" id="responsive_headlin">Features</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 mt-3 px-5">
+                    <img src="./img/1.jpeg" alt="" class="rounded img-fluid">
+                </div>
+                <div class="col-lg-7 mt-3 px-5">
+                    <div class="row ">
+                        <img src="./img/2.jpeg" id="img" class="rounded img-fluid img">
+                        <h3 class="px-2">IPhone PRO Max</h3>
+                    </div>
+                    <div class="row my-4">
+                        <img src="./img/3.jpeg" id="img" class="rounded img-fluid img">
+                        <h3 class="px-2">IPhone PRO Max</h3>
+                    </div>
+                    <div class="row my-4">
+                        <img src="./img/4.jpeg" id="img" class="rounded img-fluid img">
+                        <h3 class="px-2">IPhone PRO Max</h3>
+                    </div>
+                    <div class="row my-4">
+                        <img src="./img/5.jpeg" id="img" class="rounded img-fluid img">
+                        <h3 class="px-2">IPhone PRO Max</h3>
+                    </div>
+                    <div class="row my-4">
+                        <img src="./img/6.jpeg" id="img" class="rounded img-fluid img">
+                        <h3 class="px-2">IPhone PRO Max</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="model" class="model py-5">
+        <div class="container">
+            <div class="center">
+                <div class="slid">
+                    <div class="card" style="width: 20rem;">
+                        <img class="card-img-top" src="./img/4.jpeg" alt="Card image cap">
+                        <div class="card-body">
+                            <h3 class="card-title">IPhone Pro Max</h3>
+                            <p class="card-text">A dramatically more powerful camera system. A display so responsive,
+                                every interaction feels new againZ</p>
+
+                            <a href="#" class="btn btn-info mt-2 card-link" data-toggle="modal"
+                                data-target="#modelId">Go More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slid">
+                    <div class="card" style="width: 20rem;">
+                        <img class="card-img-top" src="./img/2.jpeg" alt="Card image cap">
+                        <div class="card-body">
+                            <h3 class="card-title">IPhone Pro Max</h3>
+                            <p class="card-text">A dramatically more powerful camera system. A display so responsive,
+                                every interaction feels new againZ</p>
+
+                            <a href="#" class="btn btn-info mt-2 card-link" data-toggle="modal"
+                                data-target="#modelId">Go More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slid">
+                    <div class="card" style="width: 20rem;">
+                        <img class="card-img-top" src="./img/3.jpeg" alt="Card image cap">
+                        <div class="card-body">
+                            <h3 class="card-title">IPhone Pro Max</h3>
+                            <p class="card-text">A dramatically more powerful camera system. A display so responsive,
+                                every interaction feels new againZ</p>
+
+                            <a href="#" class="btn btn-info mt-2 card-link" data-toggle="modal"
+                                data-target="#modelId">Go More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slid">
+                    <div class="card" style="width: 20rem;">
+                        <img class="card-img-top" src="./img/4.jpeg" alt="Card image cap">
+                        <div class="card-body">
+                            <h3 class="card-title">IPhone Pro Max</h3>
+                            <p class="card-text">A dramatically more powerful camera system. A display so responsive,
+                                every interaction feels new againZ</p>
+
+                            <a href="#" class="btn btn-info mt-2 card-link" data-toggle="modal"
+                                data-target="#modelId">Go More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slid">
+                    <div class="card" style="width: 20rem;">
+                        <img class="card-img-top" src="./img/5.jpeg" alt="Card image cap">
+                        <div class="card-body">
+                            <h3 class="card-title">IPhone Pro Max</h3>
+                            <p class="card-text">A dramatically more powerful camera system. A display so responsive,
+                                every interaction feels new againZ</p>
+
+                            <a href="#" class="btn btn-info mt-2 card-link" data-toggle="modal"
+                                data-target="#modelId">Go More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slid">
+                    <div class="card" style="width: 20rem;">
+                        <img class="card-img-top" src="./img/2.jpeg" alt="Card image cap">
+                        <div class="card-body">
+                            <h3 class="card-title">IPhone Pro Max</h3>
+                            <p class="card-text">A dramatically more powerful camera system. A display so responsive,
+                                every interaction feels new againZ</p>
+
+                            <a href="#" class="btn btn-info mt-2 card-link" data-toggle="modal"
+                                data-target="#modelId">Go More</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section>
+        <!-- model 1 -->
+        <div class="modal" tabindex="-1" id="modelId">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Modal title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="" alt="" class="rounded img-fluid imge">
+                        <h3 class="product_name"></h3>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal" id="close">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="gallery" class="gallary pb-4">
+        <h1 class="py-3 " id="responsive_headlin1">Gallery</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="./img/5.jpeg" alt="" class="rounded img-fluid">
+                </div>
+                <div class="col-md-6">
+                    <h2 class="pb-2">IPhone Max</h2>
+                    <p id="p">Wait times for Apple's (NASDAQ:AAPL) iPhone 13, particularly the high-end models, are
+                        getting better in some of the tech giant's key markets, including the U.S. and China, UBS writes
+                        in a research note.</p>
+                    <p id="p">Apple Inc. unveiled a new line of iPhones at a wide-ranging product event Tuesday, looking
+                        to entice consumers with improvements to the camera and processor in lieu of major design
+                        changes. </p>
+
+                    <div class="row ">
+                        <div class="social">
+                            <i class="fab fa-facebook-f sociall"></i>
+                        </div>
+                        <div class="social">
+                            <i class="fab fa-twitter sociall"></i>
+                        </div>
+                        <div class="social">
+                            <i class="fab fa-instagram sociall"></i>
+                        </div>
+                        <div class="social">
+                            <i class="fab fa-facebook-messenger sociall"></i>
+                        </div>
+                        <div class="social">
+                            <i class="fab fa-snapchat sociall"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="product" id="product">
+        <h1 id="responsive_headlin2" class="text-center">Product</h1>
+        <div class="container">
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./img/i.jpg" class="card-img-top rounded img-fluid " alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title">IPhone Max Pro 13</h3>
+                            <div class="row justify-content-between">
+                                <p class="card-text">Cinematic mode adds shallow depth of field and shifts focus
+                                    automatically in your videos</p>
+                                <p class="card-text">$200</p>
+                            </div>
+
+                            <a href="#" class="btn btn-info mt-2 card-link" data-toggle="modal"
+                                data-target="#modalId">Go More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./img/iii.jpg" class="card-img-top rounded img-fluid " alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title">IPhone 11</h3>
+                            <div class="row justify-content-between">
+                                <p class="card-text">Cinematic mode adds shallow depth of field and shifts focus
+                                    automatically in your videos</p>
+                                <p class="card-text">$200</p>
+
+                            </div>
+
+                            <a href="#" class="btn btn-info mt-2 card-link" data-toggle="modal"
+                                data-target="#modalId">Go More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./img/ii.jpg" class="card-img-top rounded img-fluid " alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title">IPhone Max Pro 12</h3>
+                            <div class="row justify-content-between">
+                                <p class="card-text">Cinematic mode adds shallow depth of field and shifts focus
+                                    automatically in your videos</p>
+                                <p class="card-text">$200</p>
+                            </div>
+                            <a href="#" class="btn btn-info mt-2 card-link" data-toggle="modal"
+                                data-target="#modalId">Go More</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <div>
+        <div class="modal" tabindex="-1" id="modalId">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Modal title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="" width="100%" class="rounded imge">
+                        <h3 class="product_name"></h3>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="contactUs" class="contactUs">
+        <h1 class="text-center" id="responsive_headlin3">ContactUs</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 bcg">
+                    <div class="row">
+                        <div class="sociall">
+                            <i class="fas fa-map-marker-alt map pt-4 px-4"></i>
+                        </div>
+                        <h5 class="pt-4"> Address</h5>
+                        <p class="px-4 " id="p">
+                            Mada Center 8th floor, 379 Hudson St, New York, NY 10018 US
+                        </p>
+                        
+                    </div>
+                    <div class="row">
+                        <div class="sociall">
+                            <i class="fas fa-phone pt-4 px-3 "></i>
+                        </div>
+                        <h5 class="pt-4"> Phone </h5>
+                    </div>
+                    <p class="px-4 " id="p">
+                        +568921183887
+                    </p>
+                    <div class="row">
+                        <div class="sociall">
+                            <i class="fas fa-envelope pt-4 px-3 "></i>
+                        </div>
+                        <h5 class="pt-4"> Phone </h5>
+                    </div>
+                    <p class="px-4 " id="p">
+                        email@gmail.com
+                    </p>
+                </div>
+                <div class="col-md-7">
+                    <div class="form-group">
+                        <label >UserName</label>
+                        <input type="text" class="form-control named" id="named" aria-describedby="emailHelp">
+                        <div id="invalidname" class="none alert alert-danger">
+                            Please Enter Valid Name
+                            <button id="closeMessage" type="button" class="close clo" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                        </div>
+                        <div class="form-group">
+                            <label>Phone: </label>
+                            <input type="text" class="form-control numr" id="numr">
+                            <div id="invalidnum" class="none alert alert-danger">
+                                Please Enter Valid Number
+                                <button id="closeMessage" type="button" class="close clo" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span> </button>
+                            </div>
+                            <h5 id="text"></h5>
+                            <div class="form-group">
+                                <label >Email</label>
+                                <input type="text" class="form-control email" id="email">
+                            </div>
+                            <div id="invalidemail" class="none alert alert-danger">
+                                Please Enter Valid Email
+                                <button id="closeMessage" type="button" class="close clo" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span> </button>
+                            </div>
+                        </div>
+                        <button class="btn btn-info event" >Submit</button>
+
+                    </div>
+                    <div class="data1"></div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <footer class="footer my-0 py-5" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <h2> Footer</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, iste ducimus laboriosam itaque
+                        quisquam nesciunt?</p>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <h2>CATEGORIES</h2>
+                    <ul>
+                        <li><a href="#">HTML</a></li>
+                        <li><a href="#">CSS</a></li>
+                        <li><a href="#">BOOTSTRAP</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <h2>Quick Links</h2>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Contribute</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="fh"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-sm-6 col-xs-12">
+                        <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved byScanfcode
+                        </p>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <ul class="social">
+                            <li>
+                                <div class="facebook ">
+                                    <i class="fab fa-facebook-f sociall"></i>
+                                </div>
+                            </li>
+                            <li>
+                                <div  class="twitter ">
+                                    <i class="fab fa-twitter sociall"></i>
+                                </div>
+                            </li>
+                            <li>
+                                <div  class="instagram ">
+                                    <i class="fab fa-instagram sociall"></i>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    </footer>
+    <!-- Jquery JS -->
+    <script src="./assets/js/jquery.slim.min.js"></script>
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <!-- Popper -->
+    <script src="./assets/js/popper.min.js"></script>
+    <!-- WOW JS -->
+    <script src="./assets/js/wow.min.js"></script>
+    <!-- Smooth Scroll -->
+    <script src="./assets/js/smooth-scroll.polyfills.min.js"></script>
+    <!-- Nice Scroll -->
+    <script src="./assets/js/jquery.nicescroll.js"></script>
+    <!-- Fit text -->
+    <script src="./assets/js/jquery.fittext.js"></script>
+    <!-- OWL JS -->
+    <script src="./assets/js/owl.carousel.min.js"></script>
+    <!-- Slick Js -->
+    <script src="./assets/js/slick.min.js"></script>
+    <!-- my File JS -->
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

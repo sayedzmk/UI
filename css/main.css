@@ -1,0 +1,210 @@
+.none{
+    display: none;
+}
+
+.div{
+    text-align: center;
+    background-color: rgb(103, 130, 165);
+    width: 400px;
+    height: auto;
+    margin: auto;
+    border: 1px solid white;
+    border-radius: 15px;
+    line-height: 3;
+    font-size: 20px ;
+    color: white;
+}
+@media (max-width:450px) {
+    .div{
+        width: 300px;
+        font-size: 16px;
+        margin-left: 20px;
+        margin-top: 5px;
+        margin: auto;
+    }
+}
+/* navvar */
+.navbar{
+    background:rgba(108, 122, 137); 
+    border-bottom: 1px solid black; 
+
+}
+.nav-item {
+    padding: 0 50px;
+    font-size: 20px;
+}
+a{
+    color: white;
+}
+.img1{
+    width: 50px;
+    border-radius: 10px;
+}
+.nav-link{
+    transition: 0.3s;
+}
+.nav-link:hover{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+/* section home */
+.home{
+    background:rgba(108, 122, 137);
+}
+/* section about */
+
+.about h1{
+    text-align: center;
+    text-shadow: 5px 5px 5px gray;
+
+}
+.fab{
+    font-size: 20px;
+}
+/* features */
+.features{
+    background-color: rgba(108, 122, 137,0.3);
+}
+.features h1{
+    text-align: center;
+    text-shadow: 5px 5px 5px white;
+
+}
+#img{
+    width: 80px;
+}
+.model{
+    background-color: rgba(108, 122, 137,0.5);
+}
+/* contact */
+.gallary{
+    background-color: rgb(170,170,150,0.9);
+}
+.gallary h1{
+    text-align: center;
+    text-shadow: 5px 5px 5px white;
+}
+.contactUs{
+    background-color: rgb(170,170,150,0.9);
+
+}
+.contactUs h1{
+    text-shadow: 5px 5px 5px white;
+}
+#p{
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 2;
+}
+.social{
+    padding: 10px;
+}
+.fa-facebook-f{
+    background-color: #1671e7;
+    padding: 12px;
+    border-radius: 5px;
+}
+.fa-twitter{
+    background-color: #1da1f2;
+    padding: 12px;
+    border-radius: 5px;
+}
+.fa-instagram{
+    background-color: rgb(170, 42, 20 ,0.9);
+    padding: 11px;
+    border-radius: 5px;
+
+}
+.fa-facebook-messenger{
+    background-color: #34abfd;
+    padding: 11px;
+    border-radius: 5px;
+}
+.fa-snapchat{
+    background-color: #f7ea33;
+    padding: 11px;
+    border-radius: 5px;
+}
+.product h1{
+    text-shadow: 5px 5px 5px gray;
+}
+.card:hover{
+    box-shadow: 20px 20px 80px -44px #000;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+.map{
+    font-size: 18px;
+}
+.fa-phone{
+    font-size: 18px;
+}
+.fa-envelope{
+    font-size: 18px;
+}
+.inp{
+    width: 40%;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 10px;
+}
+.footer {
+    background-color: #343a40;
+    color: white;
+    border-top: 1px solid white;
+}
+
+.footer h2 {
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.footer p {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+
+}
+
+.footer ul li a {
+    color: white;
+}
+
+.fh {
+    width: 100%;
+    height: 2px;
+    margin: 20px auto;
+    background: linear-gradient(to right, #111, rgb(233, 66, 94), #111);
+}
+.footer .p{
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 12px;
+}
+.footer .social{
+    list-style: none;
+    display: flex;
+
+}
+.footer .social li{
+    margin-right: 15px;
+}
+.footer .social li a{
+    text-decoration: none;
+    color: white;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    
+}
