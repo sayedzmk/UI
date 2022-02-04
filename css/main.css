@@ -1,8 +1,8 @@
-.none{
+.none {
     display: none;
 }
 
-.div{
+.div {
     text-align: center;
     background-color: rgb(103, 130, 165);
     width: 400px;
@@ -11,11 +11,12 @@
     border: 1px solid white;
     border-radius: 15px;
     line-height: 3;
-    font-size: 20px ;
+    font-size: 20px;
     color: white;
 }
+
 @media (max-width:450px) {
-    .div{
+    .div {
         width: 300px;
         font-size: 16px;
         margin-left: 20px;
@@ -23,133 +24,163 @@
         margin: auto;
     }
 }
-/* navvar */
-.navbar{
-    background:rgba(108, 122, 137); 
-    border-bottom: 1px solid black; 
 
+/* navvar */
+.navbar {
+    background: rgba(108, 122, 137);
+    border-bottom: 1px solid black;
 }
+
 .nav-item {
     padding: 0 50px;
     font-size: 20px;
 }
-a{
+
+a {
     color: white;
 }
-.img1{
+
+.img1 {
     width: 50px;
     border-radius: 10px;
 }
-.nav-link{
+
+.nav-link {
     transition: 0.3s;
 }
-.nav-link:hover{
+
+.nav-link:hover {
     background-color: white;
     color: black;
     border-radius: 10px;
 }
+
 /* section home */
-.home{
-    background:rgba(108, 122, 137);
+.home {
+    background: rgba(108, 122, 137);
 }
+
 /* section about */
 
-.about h1{
+.about h1 {
     text-align: center;
     text-shadow: 5px 5px 5px gray;
 
 }
-.fab{
+
+.fab {
     font-size: 20px;
 }
+
 /* features */
-.features{
-    background-color: rgba(108, 122, 137,0.3);
+.features {
+    /* background-color: rgba(108, 122, 137,0.3); */
 }
-.features h1{
+
+.features h1 {
     text-align: center;
     text-shadow: 5px 5px 5px white;
 
 }
-#img{
+
+#img {
     width: 80px;
 }
-.model{
-    background-color: rgba(108, 122, 137,0.5);
+
+.model {
+    background-color: rgba(108, 122, 137, 0.5);
 }
+
 /* contact */
-.gallary{
-    background-color: rgb(170,170,150,0.9);
+.gallary {
+    /* background-color: rgb(170,170,150,0.9); */
 }
-.gallary h1{
+
+.gallary h1 {
     text-align: center;
     text-shadow: 5px 5px 5px white;
 }
-.contactUs{
-    background-color: rgb(170,170,150,0.9);
+
+.contactUs {
+    /* background-color: rgb(170,170,150,0.9); */
 
 }
-.contactUs h1{
+
+.contactUs h1 {
     text-shadow: 5px 5px 5px white;
 }
-#p{
+
+#p {
     font-size: 18px;
     letter-spacing: 2px;
     line-height: 2;
 }
-.social{
+
+.social {
     padding: 10px;
 }
-.fa-facebook-f{
+
+.fa-facebook-f {
     background-color: #1671e7;
     padding: 12px;
     border-radius: 5px;
 }
-.fa-twitter{
+
+.fa-twitter {
     background-color: #1da1f2;
     padding: 12px;
     border-radius: 5px;
 }
-.fa-instagram{
-    background-color: rgb(170, 42, 20 ,0.9);
+
+.fa-instagram {
+    background-color: rgb(170, 42, 20, 0.9);
     padding: 11px;
     border-radius: 5px;
 
 }
-.fa-facebook-messenger{
+
+.fa-facebook-messenger {
     background-color: #34abfd;
     padding: 11px;
     border-radius: 5px;
 }
-.fa-snapchat{
+
+.fa-snapchat {
     background-color: #f7ea33;
     padding: 11px;
     border-radius: 5px;
 }
-.product h1{
+
+.product h1 {
     text-shadow: 5px 5px 5px gray;
 }
-.card:hover{
+
+.card:hover {
     box-shadow: 20px 20px 80px -44px #000;
     transition: 0.3s ease-in-out;
     cursor: pointer;
     transform: translateY(-5px);
 }
-.map{
+
+.map {
     font-size: 18px;
 }
-.fa-phone{
+
+.fa-phone {
     font-size: 18px;
 }
-.fa-envelope{
+
+.fa-envelope {
     font-size: 18px;
 }
-.inp{
+
+.inp {
     width: 40%;
     border: 1px solid black;
     padding: 5px;
     border-radius: 10px;
 }
+
 .footer {
     background-color: #343a40;
     color: white;
@@ -185,19 +216,23 @@ a{
     margin: 20px auto;
     background: linear-gradient(to right, #111, rgb(233, 66, 94), #111);
 }
-.footer .p{
+
+.footer .p {
     font-family: 'Akaya Telivigala', cursive;
     font-size: 12px;
 }
-.footer .social{
+
+.footer .social {
     list-style: none;
     display: flex;
 
 }
-.footer .social li{
+
+.footer .social li {
     margin-right: 15px;
 }
-.footer .social li a{
+
+.footer .social li a {
     text-decoration: none;
     color: white;
     display: inline-flex;
@@ -206,5 +241,44 @@ a{
     width: 50px;
     height: 50px;
     font-size: 20px;
-    
+
+}
+
+/*  */
+.label{
+    position: absolute;
+    width: 47px;
+    height: 25px;
+    right: 65px;
+    top: 20px;
+    border: 2px solid;
+    border-radius: 20px;
+}
+.label:before{
+    position: absolute;
+    content: '';
+    width:20px;
+    height: 22px;
+    left: 1px;
+    top: -1px;
+    border-radius: 50%;
+    background: #000;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.label.active:before{
+    left: 24px;
+    background: #fff;
+}
+body.night{
+    background: #000;
+    color: #fff;
+}
+.fa-moon{
+    margin-left: 2px;
+    color: black;
+}
+.fa-sun{
+    margin-right: 4px;
+    color: white;
 }

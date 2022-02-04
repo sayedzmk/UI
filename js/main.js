@@ -128,6 +128,7 @@ $(document).ready(function(){
 	$('.clo').click(function(){
 		$('.alert-danger').hide();
 	});
+
 	
 	// slick
 	$('.center').slick({
@@ -180,6 +181,7 @@ let inpName=document.getElementById('name');
 let num=document.getElementById('num');
 let prod=document.getElementById('prod');
 let data=document.querySelector('.data');
+let del=document.querySelector('delete');
 let regex =/^[\d,\s,\+,\-]{5,20}/;
 
 let closeMessageInvalid=()=>{
@@ -187,6 +189,9 @@ let closeMessageInvalid=()=>{
 }
 let closeMessageInvalidNum=()=>{
     invalidNum.classList.add('none');
+}
+let delet=()=>{
+	data.classList.add('none');
 }
 let buyPhone=()=>{
 	let inputName=inpName.value;
@@ -210,6 +215,8 @@ let buyPhone=()=>{
 		phone:${inputNum}
 		<br>
 		product:${inputProd}
+		<br>
+		<button class="btn btn-danger delete">Delete</button>
 		</div>`
 	}
 
@@ -218,4 +225,10 @@ closeMessage.addEventListener('click',closeMessageInvalid)
 closeMessageNum.addEventListener('click',closeMessageInvalidNum)
 buy.addEventListener('click',buyPhone);
 
+let content = document.getElementsByTagName('body')[0];
+let darkMode = document.getElementById('dark-change');
+darkMode.addEventListener('click', function(){
+	darkMode.classList.toggle('active');
+	content.classList.toggle('night');
+})
 // js

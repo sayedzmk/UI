@@ -26,13 +26,13 @@
 <body>
     <header>
         <nav class="navbar  fixed-top navbar-expand-lg navbar   ">
+            
             <img class="img1" src="./img/bootstrap-social.png" alt="">
             <button class="navbar-toggler navbar-dark float-right" type="button" data-toggle="collapse"
                 data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
             <div class="collapse navbar-collapse  justify-content-center " id="navbarSupportedContent">
                 <ul class="navbar-nav  ">
                     <li class="nav-item ">
@@ -57,10 +57,18 @@
                         <a class="nav-link" href="#footer">Footer</a>
                     </li>
                 </ul>
+                
+            </div>
+            <div >
+                <label class="label " id="dark-change">
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+                </label>
             </div>
         </nav>
     </header>
     <section id="home" class="home  mt-5 py-5">
+
         <div class="container">
             <div class="row">
                 <div class="col-md-6 wow animate__backInLeft" data-wow-duration="2s" data-wow-delay="0.2s">
@@ -98,11 +106,12 @@
             </div>
     </section>
 
-    <section id="aboutUS" class="about ">
-        <h1 id="responsive_headline" class="pb-3"> Advantage</h1>
+    <section id="aboutUS" class="about">
+        <h1 id="responsive_headline" class="pb-3 wow animate__bounceInDown" data-wow-duration="2s"
+            data-wow-delay="0.3s"> Advantage</h1>
         <div class="container" id="container">
             <div class="row my-2">
-                <div class="col-md-4 ">
+                <div class="col-md-4 wow animate__bounceInUp" data-wow-duration="2s" data-wow-delay="0.4s">
                     <div class="row ">
                         <i class="fab fa-app-store py-2 "></i>
                         <h4 class="px-3 ">IPhone</h4>
@@ -112,7 +121,7 @@
                         labore vero?
                     </p>
                 </div>
-                <div class="col-md-4 ">
+                <div class="col-md-4  wow animate__bounceInUp" data-wow-duration="2s" data-wow-delay="0.4s">
                     <div class="row">
                         <i class="fab fa-app-store py-2 "></i>
                         <h4 class="px-3 ">IPhone</h4>
@@ -122,7 +131,7 @@
                         labore vero?
                     </p>
                 </div>
-                <div class="col-md-4 ">
+                <div class="col-md-4 wow animate__bounceInUp" data-wow-duration="2s" data-wow-delay="0.4s">
                     <div class="row">
                         <i class="fab fa-app-store py-2 "></i>
                         <h4 class="px-3 ">IPhone</h4>
@@ -180,7 +189,7 @@
         <div class="container">
             <div class="center">
                 <div class="slid">
-                    <div class="card" style="width: 20rem;">
+                    <div class="card" style="width: 19rem;">
                         <img class="card-img-top" src="./img/4.jpeg" alt="Card image cap">
                         <div class="card-body">
                             <h3 class="card-title">IPhone Pro Max</h3>
@@ -194,7 +203,7 @@
                 </div>
 
                 <div class="slid">
-                    <div class="card" style="width: 20rem;">
+                    <div class="card" style="width: 19rem;">
                         <img class="card-img-top" src="./img/2.jpeg" alt="Card image cap">
                         <div class="card-body">
                             <h3 class="card-title">IPhone Pro Max</h3>
@@ -207,7 +216,7 @@
                     </div>
                 </div>
                 <div class="slid">
-                    <div class="card" style="width: 20rem;">
+                    <div class="card" style="width: 19rem;">
                         <img class="card-img-top" src="./img/3.jpeg" alt="Card image cap">
                         <div class="card-body">
                             <h3 class="card-title">IPhone Pro Max</h3>
@@ -220,7 +229,7 @@
                     </div>
                 </div>
                 <div class="slid">
-                    <div class="card" style="width: 20rem;">
+                    <div class="card" style="width: 19rem;">
                         <img class="card-img-top" src="./img/4.jpeg" alt="Card image cap">
                         <div class="card-body">
                             <h3 class="card-title">IPhone Pro Max</h3>
@@ -233,7 +242,7 @@
                     </div>
                 </div>
                 <div class="slid">
-                    <div class="card" style="width: 20rem;">
+                    <div class="card" style="width: 19rem;">
                         <img class="card-img-top" src="./img/5.jpeg" alt="Card image cap">
                         <div class="card-body">
                             <h3 class="card-title">IPhone Pro Max</h3>
@@ -246,7 +255,7 @@
                     </div>
                 </div>
                 <div class="slid">
-                    <div class="card" style="width: 20rem;">
+                    <div class="card" style="width: 19rem;">
                         <img class="card-img-top" src="./img/2.jpeg" alt="Card image cap">
                         <div class="card-body">
                             <h3 class="card-title">IPhone Pro Max</h3>
@@ -412,7 +421,7 @@
                         <p class="px-4 " id="p">
                             Mada Center 8th floor, 379 Hudson St, New York, NY 10018 US
                         </p>
-                        
+
                     </div>
                     <div class="row">
                         <div class="sociall">
@@ -435,7 +444,7 @@
                 </div>
                 <div class="col-md-7">
                     <div class="form-group">
-                        <label >UserName</label>
+                        <label>UserName</label>
                         <input type="text" class="form-control named" id="named" aria-describedby="emailHelp">
                         <div id="invalidname" class="none alert alert-danger">
                             Please Enter Valid Name
@@ -452,7 +461,7 @@
                             </div>
                             <h5 id="text"></h5>
                             <div class="form-group">
-                                <label >Email</label>
+                                <label>Email</label>
                                 <input type="text" class="form-control email" id="email">
                             </div>
                             <div id="invalidemail" class="none alert alert-danger">
@@ -461,7 +470,7 @@
                                     <span aria-hidden="true">&times;</span> </button>
                             </div>
                         </div>
-                        <button class="btn btn-info event" >Submit</button>
+                        <button class="btn btn-info event">Submit</button>
 
                     </div>
                     <div class="data1"></div>
@@ -511,12 +520,12 @@
                                 </div>
                             </li>
                             <li>
-                                <div  class="twitter ">
+                                <div class="twitter ">
                                     <i class="fab fa-twitter sociall"></i>
                                 </div>
                             </li>
                             <li>
-                                <div  class="instagram ">
+                                <div class="instagram ">
                                     <i class="fab fa-instagram sociall"></i>
                                 </div>
                             </li>
